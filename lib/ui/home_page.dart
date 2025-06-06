@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Mis Contraseñas'),
+        title: const Text('Mis passwords'),
       ),
       body: ListView.builder(
         itemCount: passwordProvider.entries.length,
